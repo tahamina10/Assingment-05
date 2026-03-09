@@ -5,7 +5,7 @@ document.getElementById("singIn-btn").addEventListener("click", () =>{
     let password = passwordInput.value;
 
     if(userName=="admin" && password=="admin123"){
-        window.location.assign("./index.html");
+        window.location.assign("./dashboard.html");
     }
     else{
         alert("Invalid username or password. Please try again.");
