@@ -106,11 +106,10 @@ const displayCard = (eliments) => {
               >
                 <i class="fa-solid fa-bug"></i>Bug
               </h2>
-              <h2
-                class="btn rounded-3xl bg-[#FFF8DB] border-[#FDE68A] text-[#D97706]"
-              >
-                <i class="fa-solid fa-life-ring"></i>HELP WANTED
-              </h2>
+            <h2 class="flex items-center gap-1 px-3 py-1 text-xs font-medium rounded-full bg-[#FFF8DB] border border-[#FDE68A] text-[#D97706] whitespace-nowrap">
+<i class="fa-solid fa-life-ring"></i>
+HELP WANTED
+</h2>
             </div>
             <hr class="text-gray-400" />
             <div class="space-y-4">
